@@ -1,5 +1,6 @@
 /.sass-cache/
 /.netlify/
+/node_modules/
 /_site/
 .DS_Store
 .ruby-version

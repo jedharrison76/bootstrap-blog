@@ -52,7 +52,10 @@ plugins:
 exclude:
   - .sass-cache
   - .netlify
+  - node_modules/
   - vendor/
   - Gemfile
   - Gemfile.lock
+  - package.json
+  - package-lock.json
   - README.md
