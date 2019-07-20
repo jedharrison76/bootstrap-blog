@@ -55,4 +55,5 @@ exclude:
   - vendor/
   - Gemfile
   - Gemfile.lock
+  - mdl-style.rb
   - README.md
