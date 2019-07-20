@@ -1,0 +1,12 @@
+language: ruby
+git:
+  depth: 3
+rvm:
+  - 2.5
+script:
+  - bundle exec jekyll build || travis_terminate 1
+  - bundle exec jekyll doctor || travis_terminate 1
+  - bundle exec mdl --style mdl-style.rb _posts || travis_terminate 1
+cache: bundler
+notifications:
+  email: false

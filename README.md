@@ -1,4 +1,4 @@
-# Bootstrap blog
+# Bootstrap blog [![Build Status](https://img.shields.io/travis/twbs/bootstrap-blog/gh-pages.svg)](https://travis-ci.org/twbs/bootstrap-blog)
 
 All content within `_posts/` is copyright Bootstrap. Do not reuse any part without written permission.
 
